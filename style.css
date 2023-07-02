@@ -10,23 +10,13 @@
 #total {
   background: antiquewhite;
   padding: 15px;
-  position: relative;
-  float: right;
+  position: fixed;
+  right: 0;
   font-size: xx-large;
   font-weight: 800;
   color: #3a3ab9;
   width: 108px;
   text-align: center;
-  z-index: -1;
-}
-
-#total span {
-  font-size: 22px;
-  color: black;
-  position: absolute;
-  left: 0;
-  top: -14px;
-  z-index: 2;
 }
 
 .container {
