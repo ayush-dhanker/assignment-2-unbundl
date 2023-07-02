@@ -123,10 +123,8 @@ function updateValue(index, action) {
           alert("not a valid action");
         }
       }
-      console.log(sum);
       document.getElementById(`cart-${index}`).textContent = i.cartValue;
-      document.getElementById("total").textContent = sum;
-      console.log(i.cartValue);
+      document.getElementById("total").textContent = "Total : " + sum;
     }
   }
 }
